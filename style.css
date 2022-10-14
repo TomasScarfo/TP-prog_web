@@ -40,8 +40,15 @@ body {
 
 #intro {
     background-color:gainsboro;
-    margin-left: 400px;
-    margin-right: 400px;
+    width: 36%;
+    margin-left: 150px;
     padding: 2%;
+    padding-left: 0px;
+    text-align: center;
+}
+
+#intro-2 {
+    text-align: center;
+    border: 2px solid ;
 }
 
