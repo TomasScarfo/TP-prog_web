@@ -39,8 +39,8 @@ body {
 }
 
 #intro {
-    float: left;
     background-color:gainsboro;
-    margin-left: 200px;
+    margin-left: 400px;
+    margin-right: 400px;
     padding: 2%;
 }
