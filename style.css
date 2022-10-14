@@ -12,20 +12,22 @@ body {
 .icon {padding: 10px; 
     margin: 10px; 
     border: 2px solid black;  
-    width: 120px;
+    width: 165px;
     float: right;
 }
 
-nav{
+.botones{
     height: auto;
     width: 34%;
     padding: 20px;
     background-color:rgb(188, 194, 192);
     align-self: center;
     border: 2px solid black;
+    margin: auto;
+
 }
 
-nav a{
+.botones a{
     padding: 10px;
     text-decoration: rgb(188, 194, 192);
     background-color: black;
@@ -33,7 +35,7 @@ nav a{
     border-radius: 10px;
 }
 
-nav a:hover{
+.botones a:hover{
     background-color: rgb(128, 150, 142);
 }
 
