@@ -1,0 +1,13 @@
+.encabezado{
+    background-color:darksalmon;
+    font-size: x-large;
+    border: 2px solid black;
+    padding-left: 10px;
+}
+
+.icon {padding: 10px; 
+    margin: 10px; 
+    border: 2px solid black;  
+    width: 120px;
+    float: right;
+}
