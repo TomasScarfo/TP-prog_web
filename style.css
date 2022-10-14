@@ -24,7 +24,6 @@ body {
     align-self: center;
     border: 2px solid black;
     margin: auto;
-
 }
 
 .botones a{
@@ -39,3 +38,9 @@ body {
     background-color: rgb(128, 150, 142);
 }
 
+#intro {
+    background-color:gainsboro;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 2%;
+}
