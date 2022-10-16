@@ -9,6 +9,8 @@
   <!-- Librerias externas -->
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
+  <script src="tp.js"></script>
+
   <title>Urbis</title>
 </head>
 <body>
@@ -25,12 +27,11 @@
     <hr>
     <br/>
 
-    <img class="icon" src="logourbis.png">
+    <img class="icon" src="/TP-prog_web/img/logourbis.png">
 	
   <section class="encabezado">
     <h1> 
       Urbis Resto Bar - <small>25 de Mayo 437</small> 
-    </h1>
     <strong>
       <h3>Bienvenidos a nuestro sitio online.</h3> 
     </strong>
@@ -54,7 +55,7 @@
       <p>en las personas que nos visitan todos los mediodias,</p>
       <p>con platos abundantes y de excelente calidad</p>
       <p>Todos nuestros productos son de elaboración propia:</p>
-      <p>carnes, pastas artesanales y minutas</p>
+      <p>carnes, pastas artesanales y minutas.</p>
     </div>  
     
     <br>
@@ -62,15 +63,26 @@
 
     <div id="intro-2">
       <h2>Menu & recomendaciones de la casa</h2>
-        <a target="_blank" href="menu.html">Menú</a>
+        <div class="menu-boton">
+          <a target="_blank" href="menu.html">Menú</a>
+        </div>
     </div>
 
     <br>
     <hr>
 
-    <div>
+    <div id='valoracion'>
       <h1>Contanos como fue tu experiencia</h1>
-      
+
+        <img id='animo-img' src="/TP-prog_web/img/emoticonos.png">
+
+        <div id="form">
+            <input type="number" name="medidor" id="animo-input">
+            <label for="">Ingrese valoracion entre 1 y 10</label>
+            <button onclick="experiencia()">
+                Enviar
+            </button>
+
     </div>
 
 </body>

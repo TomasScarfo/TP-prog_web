@@ -1,31 +1,30 @@
-const estados = {
-    excelente: "/practica-ej/ej-combustible-2/fuel_meter_f.png",
-    muyBuena: '/practica-ej/ej-combustible-2/fuel_meter_3-4.png',
-    intermedia: '/practica-ej/ej-combustible-2/fuel_meter_1-2.png',
-    mala: '/practica-ej/ej-combustible-2/fuel_meter_1-4.png',
-    muyMala: 'practica-ej/ej-combustible-2/fuel_meter_e.png'
+const estado = {
+    excelente: "/TP-prog_web/img/emoticonos.png",
+    buena: "/TP-prog_web/img/feliz.png",
+    intermedio: "/TP-prog_web/img/pensando.png",
+    mala: "/TP-prog_web/img/triste.png",
+    muyMala: "/TP-prog_web/img/muy-triste.png"    
 }
 
-
-function MedidorCombustible() {
-    var fuel = document.getElementById("medidor-input").value
+function experiencia() {
+    var fuel = document.getElementById("animo-input").value
     
     var imgPath = null
  
-    if ( 45 <= fuel) {
-        imgPath = estados.excelente
-    } else if (35 <= fuel && fuel < 45) {
-        imgPath = estados.muyBuena
-    } else if (20 <= fuel && fuel < 35) {
-        imgPath = estados.intermedia
-    } else if (10 <= fuel && fuel < 20) {
-        imgPath = estados.mala
-    } else if (fuel >= 0 && fuel < 10) {
-        imgPath = estados.muyMala
+    if (10 <= fuel && fuel < 8) {
+        imgPath = estado.excelente
+    } else if (8 <= fuel && fuel < 6) {
+        imgPath = estado.buena
+    } else if (6 <= fuel && fuel < 4) {
+        imgPath = estado.intermedio
+    } else if (4 <= fuel && fuel < 2) {
+        imgPath = estado.mala
+    } else if (fuel >= 0 && fuel <= 2) {
+        imgPath = estado.muyMala
     } else {
-        console.log('“Fuel tank: Invalid argument, must be >= 0')
+        prompt('valor invalido, ingrese un numero entre 1-10')
     }
 
-    var medidor = document.getElementById('medidor-img')
+    var medidor = document.getElementById('animo-img')
     medidor.src = imgPath
 }

@@ -42,13 +42,34 @@ body {
     background-color:gainsboro;
     width: 36%;
     margin-left: 150px;
-    padding: 2%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     padding-left: 0px;
     text-align: center;
 }
 
-#intro-2 {
+#intro-2{
     text-align: center;
-    border: 2px solid ;
 }
 
+.menu-boton a{
+    padding: 10px;
+    text-decoration: rgb(188, 194, 192);
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.menu-boton a:hover{
+    background-color: rgb(128, 150, 142);
+}
+
+#animo-img {
+    width: 100px;
+}
+
+#valoracion{
+    text-align: center;    
+}
