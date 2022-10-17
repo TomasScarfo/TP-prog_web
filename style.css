@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(243, 243, 241);
+    background-image: url('/TP-prog_web/img/fondo.jpg');
 }
 
 .encabezado{
@@ -14,6 +14,10 @@ body {
     border: 2px solid black;  
     width: 165px;
     float: right;
+}
+
+hr {
+    border: 1px solid black;
 }
 
 .botones{
@@ -48,6 +52,7 @@ body {
     padding-bottom: 2%;
     padding-left: 0px;
     text-align: center;
+    border: 1px solid black;  
 }
 
 #intro-2{
