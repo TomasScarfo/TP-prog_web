@@ -22,7 +22,7 @@ function experiencia() {
     } else if (a <= 2 && a >= 0) {
         imgPath = estado.muyMala
     } else {
-        alert('valor invalido, ingrese un numero entre 1-10')
+        alert('Valor invalido, ingrese un numero entre 1-10')
         imgPath = "/TP-prog_web/img/tenedor.png"
     }
 
@@ -34,6 +34,7 @@ function experiencia() {
 var appVue = new Vue ({
     el: '#app',
     data: {
-        nombre: getElementById('username').value
+        nombre: 'hola',
+        mostrar: true
     }
 })

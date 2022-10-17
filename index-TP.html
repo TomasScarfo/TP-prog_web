@@ -25,7 +25,7 @@
     </a>
     </form>
 
-    <h1 id="app"> Bienvenido {{ nombre }} </h1>
+    </div>
 
     <br/>
     <hr>
@@ -51,7 +51,9 @@
       <a target="_blank" href="">Redes</a>  
     </nav>
 
-    <br/>
+    <br>
+    <br>
+    <br>
 
     <div id="intro-contacto">
     
@@ -68,7 +70,7 @@
         <h1>Contactanos hoy!</h1>
           <h3>Tel: (011) 6886-7852</h3>
           <h3>Instagram: @SomosUrbis</h3>
-          <h3>Twitter: Urbisneta</h3>
+          <h3>Twitter: @Urbisneta</h3>
           <h3></h3>
       </div>
 
@@ -95,8 +97,8 @@
         <img id='animo-img' src="/TP-prog_web/img/tenedor.png">
 
         <div id="form">
-            <input type="number" name="medidor" id="animo-input">
-            <label for="">Ingrese valoracion entre 1 y 10</label>
+            <input type="number" name="medidor" id="animo-input" min="0" max="10">
+            <legend for="">Ingrese valoracion entre 1 y 10</legend>
             <button onclick="experiencia()">
                 Enviar
             </button>

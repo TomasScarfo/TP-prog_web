@@ -12,7 +12,7 @@ body {
 .icon {padding: 10px; 
     margin: 10px; 
     border: 2px solid black;  
-    width: 165px;
+    width: 225px;
     float: right;
 }
 
@@ -52,9 +52,27 @@ hr {
     padding-bottom: 2%;
     padding-left: 0px;
     text-align: center;
-    border: 1px solid black;
-    box-shadow: 10px -10px;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 
+        10px -10px 0px -3px gainsboro,
+        10px -10px,
+        20px -20px 0 -3px gainsboro,
+        20px -20px;
+    top: 0;
+    left: 0;
     float: left;
+    transition: box-shadow 1s, top 1s, left 1s;
+}
+
+#intro:hover {
+    top: -20px;
+    left: 20px;
+    box-shadow: 
+        0px 0px 0px -3px gainsboro,
+        0px 0px,
+        0px 0px 0px -3px gainsboro,
+        0px 0px;
 }
 
 #contacto {
@@ -67,9 +85,27 @@ hr {
     padding-bottom: 2%;
     padding-left: 0px;
     text-align: center;
-    border: 1px solid black;
-    box-shadow: 10px -10px;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 
+        10px -10px 0px -3px gainsboro,
+        10px -10px,
+        20px -20px 0 -3px gainsboro,
+        20px -20px;
+    top: 0;
+    left: 0;
     margin-left: 700px;
+    transition: box-shadow 1s, top 1s, left 1s;
+}
+
+#contacto:hover {
+    top: -20px;
+    left: 20px;
+    box-shadow: 
+        0px 0px 0px -3px gainsboro,
+        0px 0px,
+        0px 0px 0px -3px gainsboro,
+        0px 0px;
 }
 
 #intro-2{
