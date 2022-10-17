@@ -15,6 +15,20 @@
     margin-right: 300px;
 }
 
+.mila{
+    text-align: justify;
+    margin-top: 50px;
+    width: 120px;
+}
+
+.principal{
+    margin-right: 100px;
+    margin-top: 50px;
+    text-align: justify;
+    width: 120px;
+}
+
 img{
     width: 100px;
+    border-radius: 5px;
 }
