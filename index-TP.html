@@ -8,6 +8,7 @@
   
   <!-- Librerias externas -->
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://cdnis.cloudflare.com/ajax/libs/vue/2.0.3/vue.js"></script>
 
   <!-- Librerias propias -->
   <script src="tp.js"></script>
@@ -23,6 +24,8 @@
       <input type="submit" name="Login" value="Login">
     </a>
     </form>
+
+    <h1 id="app"> Bienvenido {{ nombre }} </h1>
 
     <br/>
     <hr>
@@ -41,7 +44,7 @@
     <br/>
 
     <nav class="botones">
-      <a target="_blank" href="">Inicio</a> |
+      <a target="_blank" href="#">Inicio</a> |
       <a target="_blank" href="menu.html">Menú</a> | 
       <a target="_blank" href="pedidos.html">Pedidos</a> |
       <a target="_blank" href="">Preguntas Frecuentes</a> |
@@ -50,15 +53,29 @@
 
     <br/>
 
-    <div id="intro">
-      <h2>Sobre Nosotros</h2>
-      <p>En Urbis buscamos generar una sensación de hogar</p> 
-      <p>en las personas que nos visitan todos los mediodias,</p>
-      <p>con platos abundantes y de excelente calidad</p>
-      <p>Todos nuestros productos son de elaboración propia:</p>
-      <p>carnes, pastas artesanales y minutas.</p>
-    </div>  
+    <div id="intro-contacto">
     
+      <div id="intro">
+        <h1>Sobre Nosotros</h1>
+          <p>En Urbis buscamos generar una sensación de hogar</p> 
+          <p>en las personas que nos visitan todos los mediodias,</p>
+          <p>con platos abundantes y de excelente calidad</p>
+          <p>Todos nuestros productos son de elaboración propia:</p>
+          <p>carnes, pastas artesanales y minutas.</p>
+      </div>  
+
+      <div id="contacto">
+        <h1>Contactanos hoy!</h1>
+          <h3>Tel: (011) 6886-7852</h3>
+          <h3>Instagram: @SomosUrbis</h3>
+          <h3>Twitter: Urbisneta</h3>
+          <h3></h3>
+      </div>
+
+    </div>
+    
+    <br>
+    <br>
     <br>
     <hr>
 
@@ -71,11 +88,11 @@
 
     <br>
     <hr>
-
+    
     <div id='valoracion'>
       <h1>Contanos como fue tu experiencia</h1>
 
-        <img id='animo-img' src="/TP-prog_web/img/emoticonos.png">
+        <img id='animo-img' src="/TP-prog_web/img/tenedor.png">
 
         <div id="form">
             <input type="number" name="medidor" id="animo-input">
@@ -83,9 +100,7 @@
             <button onclick="experiencia()">
                 Enviar
             </button>
-
     </div>
-
 </body>
 </html>
 
