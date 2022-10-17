@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(243, 243, 241);
+    background-image: url('/TP-prog_web/img/fondo.jpg');
 }
 
 .encabezado{
@@ -14,6 +14,10 @@ body {
     border: 2px solid black;  
     width: 165px;
     float: right;
+}
+
+hr {
+    border: 1px solid black;
 }
 
 .botones{
@@ -40,7 +44,37 @@ body {
 
 #intro {
     background-color:gainsboro;
-    margin-left: 400px;
-    margin-right: 400px;
-    padding: 2%;
+    width: 36%;
+    margin-left: 150px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 0px;
+    text-align: center;
+    border: 1px solid black;  
+}
+
+#intro-2{
+    text-align: center;
+}
+
+.menu-boton a{
+    padding: 10px;
+    text-decoration: rgb(188, 194, 192);
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.menu-boton a:hover{
+    background-color: rgb(128, 150, 142);
+}
+
+#animo-img {
+    width: 100px;
+}
+
+#valoracion{
+    text-align: center;    
 }
