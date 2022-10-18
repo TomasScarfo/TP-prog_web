@@ -18,12 +18,23 @@
 </head>
 <body>
   
-  <img class="icon" src="/TP-prog_web/img/logourbis.png">
+  <form action="login.php" method="post">
+      <input type="text" id="username" name="username" placeholder="Nombre de Usuario o email" v-model="nombre"/>
+      <input type="password" id="password" name="password" placeholder="Contraseña"/>
+      <input type="submit" name="Login" value="Login">
+    </form>
+
+    <br/>
+    <hr>
+    <br/>
+
+    <img class="icon" src="img/logourbis.png">
+	
   <section class="encabezado">
     
     <h1 id="Nombre">Urbis Resto Bar</h1> <p id="direccion">25 de Mayo 437</p>
     <strong>
-      <h5>BIENVENIDOS A NUESTRO SITIO ONLINE.</h5> 
+      <h5>BIENVENIDOS A NUESTRO SITIO ONLINE</h5> 
     </strong>
   </section>
 
@@ -65,21 +76,27 @@
     <br>
     <br>
     <br>
-
-    <div id="intro-2">
-      <hr>
-        <h2>Menu & recomendaciones de la casa</h2>
-          <div class="menu-boton">
-            <a target="_blank" href="menu.html">Menú</a>
-          </div>
-          
-          <br>
-          <hr>
+    <div class="intro-2">
+    <hr>
+      <div class="box-tasvir">
+  
+        <img src="img/buñelos.png">
+        <img src="img/milanesa.png">
+        <img src="img/tortilla.png">
+      
+      </div>
+      <h2>Ver mas platos...</h2>
+        <div class="menu-boton">
+          <a target="_blank" href="menu.html">Menú</a>
+        </div>
+        
+        <br>
+        <hr>
     </div>
 
     <div id='valoracion'>
       <h1>Contanos como fue tu experiencia</h1>
-        <img id='animo-img' src="/TP-prog_web/img/tenedor.png">
+        <img id='animo-img' src="img/tenedor.png">
 
         <div id="form">
           <fieldset>
