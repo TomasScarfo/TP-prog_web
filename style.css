@@ -36,11 +36,11 @@ hr {
 
 .botones{
     height: auto;
-    width: 34%;
-    padding: 20px;
-    background-color:rgb(188, 194, 192);
+    width: 27%;
+    padding: 15px;
+    opacity: 1;
     align-self: center;
-    border: 2px solid black;
+    border:0px;
     margin: auto;
 }
 
@@ -90,7 +90,7 @@ hr {
 }
 
 #contacto {
-    background-color:gainsboro;
+    background-image:url('img/fondodiario.jpg');
     width: 36%;
     margin-left: 150px;
     padding-left: 0%;

@@ -1,0 +1,147 @@
+#titulo{
+    text-align: center;
+}
+hr{
+    border:#1e253d solid 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+	padding: 0;
+	margin: 0;
+	animation: theme 21s linear infinite;
+	-webkit-animation: theme 21s linear infinite;
+	&:before,
+	&:after{
+		content: '';
+		display: block;
+
+		width: 100vw;  // IE/Edge
+    height: 100vh; // fallback
+		
+    width: 100vmax;
+    height: 100vmax;
+		
+		
+		
+		background: rgba(0,0,0,0.05);
+		position: fixed;
+		top: 0;
+		animation: background 20s linear infinite;
+		-webkit-animation: background 20s linear infinite;
+	}
+	
+	&:after{
+		left: 30vw;
+	}
+	&:before{
+		right: 30vw;
+		animation-delay: -20s;
+		-webkit-animation-delay: -20s;
+		animation-direction: reverse;
+		-webkit-animation-direction: reverse;
+	}
+}
+
+@keyframes background {
+    0% {
+        transform: rotate(0deg);
+				transform-origin: center center;
+    }
+    
+    100% {
+        transform: rotate(360deg);
+				transform-origin: center center;
+    }
+}
+
+@-webkit-keyframes background {
+    0% {
+        transform: rotate(360deg);
+			transform-origin: center center;
+    }
+    
+    100% {
+        transform: rotate(0deg);
+			transform-origin: center center;
+    }
+}
+
+
+
+
+@keyframes theme{
+	 0% {
+        background: #6697eb;
+    }
+    
+    16% {
+        background: #454445;
+    }
+    
+    33% {
+        background: #60bbec;
+    }
+    
+    50% {
+        background: #30b2e5;
+    }
+    
+    66% {
+        background: #1a4f7b;
+    }    
+    
+    83% {
+        background: #1e253d;
+    }
+
+    100% {
+        background: #1a4f7b;
+    }
+}
+
+@-webkit-keyframes theme{
+	 0% {
+        background: #30b2e5;
+    }
+    
+    16% {
+        background: #60bbec;
+    }
+    
+    33% {
+        background: #454445;
+    }
+    
+    50% {
+        background: #17d5eb;
+    }
+    
+    66% {
+        background: #1a4f7b;
+    }    
+    
+    83% {
+        background: #30b2e5;
+    }
+
+    100% {
+        background: #1a4f7b;
+    }
+}
