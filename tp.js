@@ -1,9 +1,9 @@
 const estado = {
-    excelente: "/TP-prog_web/img/emoticonos.png",
-    buena: "/TP-prog_web/img/feliz.png",
-    intermedio: "/TP-prog_web/img/pensando.png",
-    mala: "/TP-prog_web/img/triste.png",
-    muyMala: "/TP-prog_web/img/muy-triste.png"    
+    excelente: "img/emoticonos.png",
+    buena: "img/feliz.png",
+    intermedio: "img/pensando.png",
+    mala: "img/triste.png",
+    muyMala: "img/muy-triste.png"    
 }
 
 function experiencia() {
