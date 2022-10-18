@@ -31,10 +31,7 @@ function experiencia() {
 }
 
 
-var appVue = new Vue ({
+var myObject = new Vue({
     el: '#app',
-    data: {
-        nombre: 'hola',
-        mostrar: true
-    }
+    data: {message: 'Hello Vue!'}
 })

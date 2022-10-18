@@ -1,5 +1,5 @@
 body {
-    background-image: url('/TP-URBIS/TP-prog_web/img/fondo.jpg');
+    background-image: url('/TP-prog_web/img/fondo.jpg');
 }
 
 .encabezado{
@@ -145,4 +145,10 @@ hr {
 
 #valoracion{
     text-align: center;    
+}
+
+fieldset {
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;    
 }
