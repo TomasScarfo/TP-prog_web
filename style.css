@@ -1,5 +1,5 @@
 body {
-    background-image: url('/TP-prog_web/img/fondo.jpg');
+    background-image: url('img/fondo.jpg');
 }
 
 .encabezado{
@@ -57,7 +57,7 @@ hr {
 }
 
 #intro {
-    background-color:rgb(127, 164, 198);
+    background-color:rgb(217, 234, 250);
     width: 36%;
     margin-left: 150px;
     padding-left: 0%;
@@ -90,7 +90,7 @@ hr {
 }
 
 #contacto {
-    background-image:url('img/fondodiario.jpg');
+    background-color:rgb(221, 225, 228);
     width: 36%;
     margin-left: 150px;
     padding-left: 0%;
