@@ -30,8 +30,7 @@ function experiencia() {
     cara.src = imgPath
 }
 
-
-var myObject = new Vue({
-    el: '#app',
-    data: {message: 'Hello Vue!'}
-})
+var date = new Date();
+	var current_date = date.getFullYear()+"-"+(date.getMonth()+1)+"-"+ date.getDate();
+	document.getElementById("p1").innerHTML = current_date;
+Date()

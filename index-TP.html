@@ -8,6 +8,7 @@
   
   <!-- Librerias externas -->
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.3/vue.js"></script>
 
   <!-- Librerias propias -->
@@ -17,18 +18,7 @@
 </head>
 <body>
   
-  <form action="login.php" method="post">
-      <input type="text" id="username" name="username" placeholder="Nombre de Usuario o email" v-model="nombre"/>
-      <input type="password" id="password" name="password" placeholder="Contraseña"/>
-      <input type="submit" name="Login" value="Login">
-    </form>
-
-    <br/>
-    <hr>
-    <br/>
-
-    <img class="icon" src="/TP-prog_web/img/logourbis.png">
-	
+  <img class="icon" src="/TP-prog_web/img/logourbis.png">
   <section class="encabezado">
     
     <h1 id="Nombre">Urbis Resto Bar</h1> <p id="direccion">25 de Mayo 437</p>
@@ -75,15 +65,16 @@
     <br>
     <br>
     <br>
+
     <div id="intro-2">
-    <hr>
-      <h2>Menu & recomendaciones de la casa</h2>
-        <div class="menu-boton">
-          <a target="_blank" href="menu.html">Menú</a>
-        </div>
-        
-        <br>
-        <hr>
+      <hr>
+        <h2>Menu & recomendaciones de la casa</h2>
+          <div class="menu-boton">
+            <a target="_blank" href="menu.html">Menú</a>
+          </div>
+          
+          <br>
+          <hr>
     </div>
 
     <div id='valoracion'>
@@ -98,7 +89,9 @@
                   Enviar
               </button>
             </fieldset>
+        </div>
     </div>
+
 </body>
 </html>
 
