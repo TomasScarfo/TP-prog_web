@@ -17,12 +17,18 @@
   <title>Urbis</title>
 </head>
 <body>
-  
-  <form action="login.php" method="post">
-      <input type="text" id="username" name="username" placeholder="Nombre de Usuario o email" v-model="nombre"/>
-      <input type="password" id="password" name="password" placeholder="Contraseña"/>
-      <input type="submit" name="Login" value="Login">
-    </form>
+    <script>
+      date = Date()
+      document.getElementById("date").innerHTML = date
+    </script>
+
+    <header>
+      <p id="date"></p>
+      
+      <h1>Bienvenido {{nombre}} !!</h1>
+
+      <p id="temp">18° C - Nublado</p>
+    </header>
 
     <br/>
     <hr>
@@ -34,7 +40,7 @@
     
     <h1 id="Nombre">Urbis Resto Bar</h1> <p id="direccion">25 de Mayo 437</p>
     <strong>
-      <h5>BIENVENIDOS A NUESTRO SITIO ONLINE</h5> 
+      <h5>ESTE ES NUESTRO SITIO ONLINE</h5> 
     </strong>
   </section>
 
@@ -58,9 +64,9 @@
         <h1>Sobre Nosotros</h1>
           <p>En Urbis buscamos generar una sensación de hogar</p> 
           <p>en las personas que nos visitan todos los mediodias,</p>
-          <p>con platos abundantes y de excelente calidad</p>
+          <p>con platos abundantes y de excelente calidad.</p>
           <p>Todos nuestros productos son de elaboración propia:</p>
-          <p>carnes, pastas artesanales y minutas.</p>
+          <p>carnes, pastas artesanales, minutas y muchos mas.</p>
       </div>  
 
       <div id="contacto">
