@@ -1,5 +1,6 @@
 body{
     font-family: sans-serif;
+    background-image: url('img/fondo.jpg');
 }
 
 .main-platos{
@@ -19,21 +20,21 @@ body{
 }
 
 .entrada{
-    margin-top: 50px;
-    text-align: justify;
+    margin-top: 100px;
+    text-align: left;
     width: 120px;
 }
 
 .principal{
-    margin-top: 50px;
-    text-align: justify;
+    margin-top: 100px;
+    text-align:left;
     width: 120px;
 }
 
 .postre{
-    margin-top: 50px;
-    justify-content: center;
-    text-align: center;
+    margin-top: 100px;
+    justify-content:center;
+    text-align: left;
     width: 120px;
 }
 
