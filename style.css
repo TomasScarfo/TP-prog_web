@@ -2,30 +2,14 @@ body {
     background-image: url('img/fondo.jpg');
 }
 
-
-header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-
-#temp {
-    font-style: italic;
-    font-weight: bold;
-}
-
-#date {
-    font-style: italic;
-    font-size: 13px;
-}
-
 .encabezado{
     background-color:rgb(188, 194, 192);
     font-size: x-large;
     border: 2px solid black;
-    padding-left: 10px;
+    padding-left: 35%;
+    margin: 0%;
 
+    
 }
 #Nombre{
     font-style: oblique;
@@ -55,7 +39,6 @@ hr {
 .botones{
     height: auto;
     width: 40%;
-    width: 35%;
     padding: 15px;
     opacity: 1;
     align-self: center;
