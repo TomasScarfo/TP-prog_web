@@ -10,26 +10,31 @@
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.3/vue.js"></script>
 
-  <!-- Librerias propias -->
-  <script src="tp.js"></script>
+
 
   <title>Urbis</title>
 </head>
-<body>    
-    <div id="header">
-      <p id="date">Hoy</p>
-      
-      <h1>Bienvenido {{nombre}} !!</h1>
+<body>
+  <div id="app">
+      Ingrese su nombre: <input type="text" v-model="nombre">
+      <div id="header">
+        <p id="date">Hoy</p>
+        
+        <h1>Bienvenido {{nombre}}!!</h1>
+        
 
-      <p id="temp">18° C - Nublado</p>
+        <p id="temp">18° C - Nublado</p>
+      </div>
     </div>
+
+
 
     <br/>
     <hr>
     <br/>
-    <img class="icon" src="img/logourbis.png">
-    <img class="icon" src="img/logourbis.png">
-    
+    <img class="icon" src="img/placeholder_restaurant.jpg">
+    <img class="icon-2" src="img/placeholder_restaurant.jpg">
+
     <section class="encabezado">
       <h1 id="Nombre">Urbis Resto Bar</h1> <p id="direccion">25 de Mayo 437</p>
       <strong>
@@ -109,6 +114,11 @@
             </fieldset>
         </div>
     </div>
+  
+    
+    
+    <!-- Librerias propias -->
+    <script src="tp.js"></script>
 
 </body>
 </html>
