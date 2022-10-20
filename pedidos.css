@@ -35,15 +35,13 @@ body{
     margin: 10px; 
     width: 150px;
     float: right;
-    margin-top: 10px;
-    
+    margin-top: 10px;    
 }
-
 
 hr{
     border:#1e253d solid 1px;
 }
 
 footer{
-    text-align: end;
+    text-align: center;
 }
