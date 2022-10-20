@@ -3,11 +3,11 @@ body {
 }
 
 .encabezado{
-    background-color:white;
     font-size: x-large;
     border: 2px solid black;
     padding-left: 35%;
     margin: 0%;    
+    color: black;
 }
 
 #header {
