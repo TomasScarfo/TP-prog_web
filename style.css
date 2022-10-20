@@ -82,7 +82,7 @@ hr {
 
 #intro {
     background-color:gainsboro;
-    background-color:rgb(217, 234, 250);
+    background-color:gainsboro;
     width: 36%;
     margin-left: 150px;
     padding-left: 0%;
@@ -96,7 +96,7 @@ hr {
     box-shadow: 
         10px -10px 0px -3px rgb(40, 37, 43),
         10px -10px,
-        20px -20px 0 -3px rgb(60, 55, 55),
+        20px -20px 0 -3px rgb(40, 37, 43),
         20px -20px;
     top: 0;
     left: 0;
@@ -127,9 +127,9 @@ hr {
     border-style: solid;
     border-width: 3px;
     box-shadow: 
-        10px -10px 0px -3px gainsboro,
+        10px -10px 0px -3px rgb(40, 37, 43),
         10px -10px,
-        20px -20px 0 -3px gainsboro,
+        20px -20px 0 -3px rgb(40, 37, 43),
         20px -20px;
     top: 0;
     left: 0;
