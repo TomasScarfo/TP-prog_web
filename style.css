@@ -7,10 +7,26 @@ body {
     font-size: x-large;
     border: 2px solid black;
     padding-left: 35%;
-    margin: 0%;
-
-    
+    margin: 0%;    
 }
+
+#header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#temp {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#date {
+    font-style: italic;
+    font-size: 13px;
+}
+
 #Nombre{
     font-style: oblique;
     float: left;

@@ -4,9 +4,9 @@ body{
 }
 
 .main-platos{
-    display: flex;
+    display: block;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;    
 }
 
 #platos{

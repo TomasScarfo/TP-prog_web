@@ -10,7 +10,7 @@ function experiencia() {
     var a = document.getElementById("animo-input").value
     
     var imgPath = null
-    var pValue = null
+    var p = null
 
     if (10 >= a && a > 8) {
         imgPath = estado.excelente
