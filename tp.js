@@ -38,3 +38,37 @@ function experiencia() {
     cara.src = imgPath
     msj.innerHTML = p
 }
+
+
+
+var appVue2 = new Vue({
+    el: '#app',
+    data: {
+        mensaje: '',
+        nombre: ''
+    }
+})
+
+// date
+var date = document.getElementById('date')
+
+var today = new Date();
+var dd = today.getDate();
+
+var mm = today.getMonth()+1; 
+var yyyy = today.getFullYear();
+if(dd<10) 
+{
+    dd='0'+dd;
+} 
+
+if(mm<10) 
+{
+    mm='0'+mm;
+} 
+today = mm+'-'+dd+'-'+yyyy;
+
+date.innerHTML = today
+
+
+

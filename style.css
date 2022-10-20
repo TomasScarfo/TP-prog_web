@@ -3,7 +3,7 @@ body {
 }
 
 .encabezado{
-    background-color:rgb(188, 194, 192);
+    background-color:white;
     font-size: x-large;
     border: 2px solid black;
     padding-left: 35%;
@@ -23,8 +23,8 @@ body {
 }
 
 #date {
-    font-style: italic;
-    font-size: 13px;
+    font: bolder;
+    font-size: 20px;
 }
 
 #Nombre{
@@ -42,9 +42,15 @@ body {
 
 .icon {padding: 10px; 
     margin: 10px; 
-    border: 2px solid black;  
     width: 180px;
     float: right;
+    margin-top: 10px;
+}
+
+.icon-2 {padding: 10px; 
+    margin: 10px; 
+    width: 180px;
+    float: left;
     margin-top: 10px;
 }
 
