@@ -1,6 +1,49 @@
-#titulo{
-    text-align: center;
+body{
+    background-image: url('img/fondo.jpg');
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+
+.encabezado{
+    border: 2px solid black;
+    margin: 0%;
+    height: 150px;
+    text-align: center;
+       
+}
+
+#titulo{
+    font-size:xx-large;
+}
+
+
+
+.location{
+    width: 14px;
+    height: 14px;
+    margin-top: 18px;
+}
+.icon {padding: 10px; 
+    margin: 10px; 
+    width: 150px;
+    float: left;
+    margin-top: 10px;
+    
+}
+
+.icon-2 {padding: 10px; 
+    margin: 10px; 
+    width: 150px;
+    float: right;
+    margin-top: 10px;
+    
+}
+
+
 hr{
     border:#1e253d solid 1px;
+}
+
+footer{
+    text-align: end;
 }

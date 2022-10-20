@@ -8,10 +8,24 @@
     <title>Pedidos - Urbis</title>
 </head>
 <body>
-    <h1 id="titulo">REALIZA TU PEDIDO</h1><hr>
-    <form action="mailto:elintento@gmail.com" method="post" enctype="text/plain">
+    
+    <img class="icon" src="img/placeholder_restaurant.jpg">
+    <img class="icon-2" src="img/placeholder_restaurant.jpg">
+    <section class="encabezado">
+        <h1 id="titulo">REALIZA TU PEDIDO</h1>
+        <div style="display:inline-flex;vertical-align:top;">
+            <img class="location" src="img/location.jpg">
+            <p>25 de Mayo 437, Buenos Aires</p>
+        </div>
+        <p>De lunes a viernes de 8 a 18:00hs</p>
+        <sub></sub>
+    </section>   
+    
+    
+    <br><hr>
+    <form action="mailto:urbis@gmail.com" method="post" enctype="text/plain">
 
-        <table border="2">
+        <table border="8" style="margin: 0 auto;">
             <tbody>
                 <tr>
                     <td>Nombre y apellido</td>
@@ -62,14 +76,10 @@
                     </td>
                 </tr>
 
-                <tr>
-                    <td>Cualidades</td>
-                    <td></td>
-                </tr>
+
                 <tr>
                     <td>
                         <p>Horario de Entrega</p>
-                        <p>(8:00 - 18:00)</p>
                     </td>
                     <td>
                         <input type="time" name="fecha" id="">
@@ -79,8 +89,10 @@
         </table>
 
         <br><br>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Borrar Formulario">
+        <footer>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </footer>
     </form>
 </body>
 </html>
