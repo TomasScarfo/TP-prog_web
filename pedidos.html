@@ -9,12 +9,78 @@
 </head>
 <body>
     <h1 id="titulo">REALIZA TU PEDIDO</h1><hr>
-    <p>pedimela toda</p>
-    <div class="box-tasvir">
-  
-        <img src="img/buñelos.png">
-        <img src="img/milanesa.png">
-        
-      </div>
+    <form action="mailto:elintento@gmail.com" method="post" enctype="text/plain">
+
+        <table border="2">
+            <tbody>
+                <tr>
+                    <td>Nombre y apellido</td>
+                    <td>
+                        <input type="text" name="nombre" id="" placeholder="Escriba aquí">
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Teléfono</td>
+                    <td>
+                        <input type="tel" name="" id="" maxlength="10">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Modo de Entrega</td>
+                    <td>
+                        <input type="radio" name="modo" id="" value="Takeaway">Takeaway
+                        <input type="radio" name="modo" id="" value="Delivery">Delivery
+                    </td>
+                </tr>
+                <tr>
+                    <td>¿Qué desea encargar?</td>
+                    <td>
+                       Entrada <select name="entrada" id="">
+                            <option value="-">-</option>
+                            <option value="Rabas">Rabas</option>
+                            <option value="Tortilla">Tortilla</option>
+                            <option value="Buñuelos">Buñuelos</option>
+                            <option value="Burrata">Burrata</option>
+                        </select>
+                        <br>
+                        Plato principal <select name="princi" id="">
+                            <option value="-">-</option>
+                            <option value="Milanesa">Milanesa</option>
+                            <option value="Fideos">Fideos</option>
+                            <option value="Carne al horno">Carne al horno</option>
+                            <option value="Ñoquis">Ñoquis</option>
+                        </select>
+                        <br>
+                        Postre <select name="postre" id="">
+                            <option value="-">-</option>
+                            <option value="Ensalada de fruta">Ensalada de fruta</option>
+                            <option value="Flan">Flan</option>
+                            <option value="Helado">Helado</option>
+                            <option value="Tiramisu">Tiramisu</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Cualidades</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Horario de Entrega</p>
+                        <p>(8:00 - 18:00)</p>
+                    </td>
+                    <td>
+                        <input type="time" name="fecha" id="">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar Formulario">
+    </form>
 </body>
 </html>
