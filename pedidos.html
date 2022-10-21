@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pedidos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.3/vue.js"></script>
+
     <title>Pedidos - Urbis</title>
 </head>
 <body>
@@ -23,7 +25,7 @@
     
     
     <br><hr>
-    <form action="mailto:urbis@gmail.com" method="post" enctype="text/plain">
+    <form action="mailto:@urbis" method="post" enctype="text/plain">
 
         <table border="8" style="margin: 0 auto;">
             <tbody>
@@ -49,31 +51,33 @@
                 </tr>
                 <tr>
                     <td>¿Qué desea encargar?</td>
-                    <td>
-                       Entrada <select name="entrada" id="">
-                            <option value="-">-</option>
-                            <option value="Rabas">Rabas</option>
-                            <option value="Tortilla">Tortilla</option>
-                            <option value="Buñuelos">Buñuelos</option>
-                            <option value="Burrata">Burrata</option>
-                        </select>
-                        <br>
-                        Plato principal <select name="princi" id="">
-                            <option value="-">-</option>
-                            <option value="Milanesa">Milanesa</option>
-                            <option value="Fideos">Fideos</option>
-                            <option value="Carne al horno">Carne al horno</option>
-                            <option value="Ñoquis">Ñoquis</option>
-                        </select>
-                        <br>
-                        Postre <select name="postre" id="">
-                            <option value="-">-</option>
-                            <option value="Ensalada de fruta">Ensalada de fruta</option>
-                            <option value="Flan">Flan</option>
-                            <option value="Helado">Helado</option>
-                            <option value="Tiramisu">Tiramisu</option>
-                        </select>
-                    </td>
+                    <div id="app">
+                        <td>
+                        Entrada <select name="entrada" id="">
+                                <option value="-">-</option>
+                                <option value="Rabas">Rabas</option>
+                                <option value="Tortilla">Tortilla</option>
+                                <option value="Buñuelos">Buñuelos</option>
+                                <option value="Burrata">Burrata</option>
+                            </select>
+                            <br>
+                            Plato principal <select name="princi" id="">
+                                <option value="-">-</option>
+                                <option value="Milanesa">Milanesa</option>
+                                <option value="Fideos">Fideos</option>
+                                <option value="Carne al horno">Carne al horno</option>
+                                <option value="Ñoquis">Ñoquis</option>
+                            </select>
+                            <br>
+                            Postre <select name="postre" id="">
+                                <option value="-">-</option>
+                                <option value="Ensalada de fruta">Ensalada de fruta</option>
+                                <option value="Flan">Flan</option>
+                                <option value="Helado">Helado</option>
+                                <option value="Tiramisu">Tiramisu</option>
+                            </select>
+                        </td>
+                    </div>
                 </tr>
 
 
@@ -89,10 +93,14 @@
         </table>
 
         <br><br>
-        <footer>
+        <footer id="footer">
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpiar">
         </footer>
     </form>
+
+    <script src="pedidos.js"></script>
+
+
 </body>
 </html>
