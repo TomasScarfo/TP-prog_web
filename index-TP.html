@@ -10,35 +10,44 @@
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.3/vue.js"></script>
 
-  <!-- Librerias propias -->
-  <script src="tp.js"></script>
+
 
   <title>Urbis</title>
 </head>
 <body>
-  
-  <form action="login.php" method="post">
-      <input type="text" id="username" name="username" placeholder="Nombre de Usuario o email" v-model="nombre"/>
-      <input type="password" id="password" name="password" placeholder="Contraseña"/>
-      <input type="submit" name="Login" value="Login">
-    </form>
+  <div id="app">
+      Ingrese su nombre: <input type="text" v-model="nombre">
+      <div id="header">
+        <p id="date">Hoy</p>
+        
+        <h1 id="bienvenido">Bienvenido {{nombre}}!!</h1>
+        
 
-    <br/>
+        <p id="temp">18° C - Nublado</p>
+      </div>
+    </div>
+
+    <br>
     <hr>
-    <br/>
+    <hr>
+    <br>
 
-    <img class="icon" src="img/logourbis.png">
-	
-  <section class="encabezado">
+    <img class="icon" src="img/placeholder_restaurant.jpg">
+    <img class="icon-2" src="img/placeholder_restaurant.jpg">
+
+    <section class="encabezado">
+      <h1 id="Nombre">Urbis Resto Bar</h1> 
+      <a target="_blank" href="https://www.google.com.ar/maps/place/Urbis+Bar+Restaurante/@-34.602708,-58.3732216,17z/data=!3m1!4b1!4m5!3m4!1s0x95a33532cfbb93a1:0x68be8a70e7b328d2!8m2!3d-34.6027124!4d-58.3710329">
+        <p id="direccion">25 de Mayo 437</p>
+      </a>
+      <strong>
+        <h5 id="horario">Lunes a Vienes, de 8 a 18 horas</h5> 
+      </strong>
+    </section>
     
-    <h1 id="Nombre">Urbis Resto Bar</h1> <p id="direccion">25 de Mayo 437</p>
-    <strong>
-      <h5>BIENVENIDOS A NUESTRO SITIO ONLINE</h5> 
-    </strong>
-  </section>
 
     <br/>
-
+    
     <nav class="botones">
       <a href="#">Inicio</a> |
       <a target="_blank" href="menu.html">Menú</a> | 
@@ -57,9 +66,9 @@
         <h1>Sobre Nosotros</h1>
           <p>En Urbis buscamos generar una sensación de hogar</p> 
           <p>en las personas que nos visitan todos los mediodias,</p>
-          <p>con platos abundantes y de excelente calidad</p>
+          <p>con platos abundantes y de excelente calidad.</p>
           <p>Todos nuestros productos son de elaboración propia:</p>
-          <p>carnes, pastas artesanales y minutas.</p>
+          <p>carnes, pastas artesanales, minutas y muchos mas.</p>
       </div>  
 
       <div id="contacto">
@@ -78,10 +87,12 @@
     <div class="intro-2">
     <hr>
       <div class="box-tasvir">
-        <marquee behavior="scroll" direction="left">
+        <marquee behavior="scroll" direction="left" scrolldelay="800" scrollamount="100">
           <img src="img/buñelos.png">
           <img src="img/milanesa.png" alt="">
           <img src="img/tortilla.png" alt="">
+          <img src="img/fideos.jpg" alt="">
+          <img src="img/flan.png" alt="">
           </marquee>
       
       </div>
@@ -105,8 +116,17 @@
               <button onclick="experiencia()">
                   Enviar
               </button>
+            <h2 id="feedback"></h2>
             </fieldset>
+        </div>
     </div>
+
+  
+    
+    
+    <!-- Librerias propias -->
+    <script src="tp.js"></script>
+
 </body>
 </html>
 

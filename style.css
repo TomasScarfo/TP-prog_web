@@ -3,30 +3,66 @@ body {
 }
 
 .encabezado{
-    background-color:rgb(188, 194, 192);
     font-size: x-large;
     border: 2px solid black;
-    padding-left: 10px;
+    padding-left: 35%;
+    margin: 0%;    
+    color: black;
 }
+
+#header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#bienvenido{
+    font-family: sans-serif;
+    
+}
+
+#temp {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#date {
+    font: bolder;
+    font-size: 20px;
+}
+
 #Nombre{
     font-style: oblique;
     float: left;
+    margin-left: 115px;
     
 }
+
 
 #direccion{
     font-style: italic;
     font-size: smaller;
     margin-left: 230px;
     margin-top: 60px;
-    
+    color: black;
+}
+
+#horario{
+    margin-left: 103px;
 }
 
 .icon {padding: 10px; 
     margin: 10px; 
-    border: 2px solid black;  
     width: 180px;
     float: right;
+    margin-top: 10px;
+}
+
+.icon-2 {padding: 10px; 
+    margin: 10px; 
+    width: 180px;
+    float: left;
     margin-top: 10px;
 }
 
@@ -36,12 +72,12 @@ hr {
 
 .botones{
     height: auto;
-    width: 27%;
+    width: 40%;
     padding: 15px;
     opacity: 1;
     align-self: center;
     border:0px;
-    margin: auto;
+    margin-left:590px ;
 }
 
 .botones a{
@@ -57,7 +93,8 @@ hr {
 }
 
 #intro {
-    background-color:rgb(217, 234, 250);
+    background-color:gainsboro;
+    background-color:gainsboro;
     width: 36%;
     margin-left: 150px;
     padding-left: 0%;
@@ -71,7 +108,7 @@ hr {
     box-shadow: 
         10px -10px 0px -3px rgb(40, 37, 43),
         10px -10px,
-        20px -20px 0 -3px rgb(60, 55, 55),
+        20px -20px 0 -3px rgb(40, 37, 43),
         20px -20px;
     top: 0;
     left: 0;
@@ -102,9 +139,9 @@ hr {
     border-style: solid;
     border-width: 3px;
     box-shadow: 
-        10px -10px 0px -3px gainsboro,
+        10px -10px 0px -3px rgb(40, 37, 43),
         10px -10px,
-        20px -20px 0 -3px gainsboro,
+        20px -20px 0 -3px rgb(40, 37, 43),
         20px -20px;
     top: 0;
     left: 0;
@@ -122,11 +159,18 @@ hr {
         0px 0px;
 }
 
+#intro-contacto{
+    margin-left: 60px;
+}
+
 .intro-2{
    text-align: center;
    margin: 10%;
 }
-
+.box-tasvir{
+    width: 600px;
+    margin-left: 350px;
+}
 .box-tasvir img{
     width: 200px;
     height: 200px;
@@ -151,8 +195,10 @@ hr {
 }
 
 #valoracion{
-    text-align: center;    
+    text-align: center; 
+    flex-direction: row;
 }
+
 
 fieldset {
     width: 30%;

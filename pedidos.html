@@ -5,11 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pedidos.css">
-    <title>Pedidos</title>
+    <title>Pedidos - Urbis</title>
 </head>
 <body>
-    <h1 id="titulo">REALIZA TU PEDIDO</h1><hr>
-    <p>pedimela toda</p>
     
+    <img class="icon" src="img/placeholder_restaurant.jpg">
+    <img class="icon-2" src="img/placeholder_restaurant.jpg">
+    <section class="encabezado">
+        <h1 id="titulo">REALIZA TU PEDIDO</h1>
+        <div style="display:inline-flex;vertical-align:top;">
+            <img class="location" src="img/location.jpg">
+            <p>25 de Mayo 437, Buenos Aires</p>
+        </div>
+        <p>De lunes a viernes de 8 a 18:00hs</p>
+        <sub></sub>
+    </section>   
+    
+    
+    <br><hr>
+    <form action="mailto:urbis@gmail.com" method="post" enctype="text/plain">
+
+        <table border="8" style="margin: 0 auto;">
+            <tbody>
+                <tr>
+                    <td>Nombre y apellido</td>
+                    <td>
+                        <input type="text" name="nombre" id="" placeholder="Escriba aquí">
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Teléfono</td>
+                    <td>
+                        <input type="tel" name="" id="" maxlength="10">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Modo de Entrega</td>
+                    <td>
+                        <input type="radio" name="modo" id="" value="Takeaway">Takeaway
+                        <input type="radio" name="modo" id="" value="Delivery">Delivery
+                    </td>
+                </tr>
+                <tr>
+                    <td>¿Qué desea encargar?</td>
+                    <td>
+                       Entrada <select name="entrada" id="">
+                            <option value="-">-</option>
+                            <option value="Rabas">Rabas</option>
+                            <option value="Tortilla">Tortilla</option>
+                            <option value="Buñuelos">Buñuelos</option>
+                            <option value="Burrata">Burrata</option>
+                        </select>
+                        <br>
+                        Plato principal <select name="princi" id="">
+                            <option value="-">-</option>
+                            <option value="Milanesa">Milanesa</option>
+                            <option value="Fideos">Fideos</option>
+                            <option value="Carne al horno">Carne al horno</option>
+                            <option value="Ñoquis">Ñoquis</option>
+                        </select>
+                        <br>
+                        Postre <select name="postre" id="">
+                            <option value="-">-</option>
+                            <option value="Ensalada de fruta">Ensalada de fruta</option>
+                            <option value="Flan">Flan</option>
+                            <option value="Helado">Helado</option>
+                            <option value="Tiramisu">Tiramisu</option>
+                        </select>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <p>Horario de Entrega</p>
+                    </td>
+                    <td>
+                        <input type="time" name="fecha" id="">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><br>
+        <footer>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </footer>
+    </form>
 </body>
 </html>
