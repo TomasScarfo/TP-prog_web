@@ -39,8 +39,6 @@ function experiencia() {
     msj.innerHTML = p
 }
 
-
-
 var appVue2 = new Vue({
     el: '#app',
     data: {
