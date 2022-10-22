@@ -32,13 +32,10 @@ body {
     font-size: 20px;
 }
 
-#Nombre{
+#nombre{
     font-style: oblique;
-    float: left;
-    margin-left: 115px;
-    
+    float: left;    
 }
-
 
 #direccion{
     font-style: italic;
@@ -46,10 +43,6 @@ body {
     margin-left: 230px;
     margin-top: 60px;
     color: black;
-}
-
-#horario{
-    margin-left: 103px;
 }
 
 .icon {padding: 10px; 
@@ -76,8 +69,8 @@ hr {
     padding: 15px;
     opacity: 1;
     align-self: center;
-    border:0px;
-    margin-left:590px ;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .botones a{
@@ -169,14 +162,13 @@ hr {
 }
 .box-tasvir{
     width: 600px;
-    margin-left: 360px;
+    margin-left: 250px;
 }
 .box-tasvir img{
     width: 200px;
     height: 200px;
     
 }
-
 
 .menu-boton a{
     padding: 10px;
@@ -198,7 +190,6 @@ hr {
     text-align: center; 
     flex-direction: row;
 }
-
 
 fieldset {
     width: 30%;
