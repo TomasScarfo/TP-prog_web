@@ -4,7 +4,7 @@ body {
 
 .encabezado{
     font-size: x-large;
-    border: 2px solid black;
+    border: 2px solid black ;
     padding-left: 35%;
     margin: 0%;    
     color: black;
@@ -160,7 +160,7 @@ hr {
 }
 
 #intro-contacto{
-    margin-left: 60px;
+    margin-left: 85px;
 }
 
 .intro-2{
