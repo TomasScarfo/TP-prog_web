@@ -16,16 +16,18 @@
     <section class="encabezado">
         <h1 id="titulo">REALIZA TU PEDIDO</h1>
         <div style="display:inline-flex;vertical-align:top;">
-            <img class="location" src="img/location.jpg">
+            <a target="_blank" href="https://www.google.com.ar/maps/place/Urbis+Bar+Restaurante/@-34.602708,-58.3732216,17z/data=!3m1!4b1!4m5!3m4!1s0x95a33532cfbb93a1:0x68be8a70e7b328d2!8m2!3d-34.6027124!4d-58.3710329">
+                <img class="location" src="img/location.jpg">
+            </a>    
             <p>25 de Mayo 437, Buenos Aires</p>
         </div>
-        <p>De lunes a viernes de 8 a 18:00hs</p>
+        <p>Lunes a viernes de 8 a 18:00hs</p>
         <sub></sub>
     </section>   
     
     
     <br><hr>
-    <form action="mailto:@urbis" method="post" enctype="text/plain">
+    <form action="mailto:@urbis" method="post" enctype="text/plain" id="form">
 
         <table border="8" style="margin: 0 auto;">
             <tbody>
@@ -39,7 +41,7 @@
                 <tr>
                     <td>Teléfono</td>
                     <td>
-                        <input type="tel" name="" id="" maxlength="10">
+                        <input type="tel" name="telefono" id="" maxlength="10">
                     </td>
                 </tr>
                 <tr>
@@ -51,7 +53,6 @@
                 </tr>
                 <tr>
                     <td>¿Qué desea encargar?</td>
-                    <div id="app">
                         <td>
                         Entrada <select name="entrada" id="">
                                 <option value="-">-</option>
@@ -77,7 +78,6 @@
                                 <option value="Tiramisu">Tiramisu</option>
                             </select>
                         </td>
-                    </div>
                 </tr>
 
 
